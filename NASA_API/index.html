@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Nasa's picture of the day</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="icon" href="orbit.png" type="image/png">
+    </head>
+
+    <body>
+      <div class="container">
+        <header>
+          <h1>Nasa's Astronomical Picture of the Day</h1>
+
+          <form >
+            <label for="datepiceker">Pick a date:
+            <input id="datepicker" type="date" min="" max="" > 
+            </label>
+          </form>
+          <hr style="color: #ebd2b2; width: 60vw;">
+        </header>
+
+        <section class="title-section">
+          <h2 id="title"></h2>
+          <p id="date"></p>
+          <small style="display: block;" id="copyright" ></small>
+        </section>
+
+        <section id="media-section">
+        </section>
+
+        <div class="description-div">
+          <p id="description"></p>
+        </div>
+
+        <footer class="footer">  
+          <small><p>Follow NASA for more intrested things</p></small>           
+          <ul class="list-nobullet">
+            <li class="list-item-inline">
+              <a href="https://twitter.com/NASA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="twitter.png" border="0" width="40px"></a>
+            </li>
+            <li class="list-item-inline">
+              <a href="https://www.instagram.com/nasa/?hl=ru"><img src="instagram.png" border="0" width="40px"></a>
+            </li>
+            <li class="list-item-inline">
+              <a href="https://ru-ru.facebook.com/NASA"><img src="facebook.png" border="0" width="40px"></a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+
+      <script src="script.js"></script>  
+    </body>
+  </html>
